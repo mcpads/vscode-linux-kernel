@@ -2,7 +2,26 @@
     "files.exclude": {
         "**/.*.*.cmd": true,
         "**/.*.d": true,
-        "**/.*.S": true
+        "**/*.o": true,
+        "**/*.a": true,
+        "**/alpha/**": true,
+        "**/arc/**": true,
+        "**/arm/**": true,
+        "**/arm64/**": true,
+        "**/csky/**": true,
+        "**/hexagon/**": true,
+        "**/loongarch/**": true,
+        "**/m68k/**": true,
+        "**/mips/**": true,
+        "**/microblaze/**": true,
+        "**/nios2/**": true,
+        "**/openrisc/**": true,
+        "**/powerpc/**": true,
+        "**/parisc/**": true,
+        "**/riscv/**": true,
+        "**/s390/**": true,
+        "**/sparc/**": true,
+        "**/xtensa/**": true
     },
     "[c]": {
         "editor.detectIndentation": false,
@@ -12,5 +31,6 @@
     },
     "files.associations": {
         "*.h": "c"
-    }
+    },
+    "C_Cpp.default.compilerPath": "gcc"
 }
